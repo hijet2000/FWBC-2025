@@ -1,4 +1,4 @@
-import { mockStudents, Student } from '../data/mockData';
+import { mockStudents, Student } from '@/data/mockData';
 
 const SIMULATED_DELAY = 500;
 

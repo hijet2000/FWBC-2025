@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useCourses } from '../../context/CoursesContext';
-import { CourseStatus } from '../../data/mockData';
-import CreateCourseModal from './CreateCourseModal';
-import { Spinner } from '../../components/ui/Spinner';
-import { EmptyState } from '../../components/ui/EmptyState';
-import { Button } from '../../components/ui/Button';
+import { useCourses } from '@/context/CoursesContext';
+import { CourseStatus } from '@/data/mockData';
+import CreateCourseModal from '@/pages/courses/CreateCourseModal';
+import { Spinner } from '@/components/ui/Spinner';
+import { EmptyState } from '@/components/ui/EmptyState';
+import { Button } from '@/components/ui/Button';
 
 const Courses: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

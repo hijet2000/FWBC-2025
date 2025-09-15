@@ -1,9 +1,9 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { Student, Class } from '../../data/mockData';
-import { useAttendance, AttendanceRecord, AttendanceStatus } from '../../context/AttendanceContext';
-import * as classesService from '../../services/classesService';
-import { mockStudents } from '../../data/mockData';
-import { Spinner } from '../../components/ui/Spinner';
+import { Student, Class } from '@/data/mockData';
+import { useAttendance, AttendanceRecord, AttendanceStatus } from '@/context/AttendanceContext';
+import * as classesService from '@/services/classesService';
+import { mockStudents } from '@/data/mockData';
+import { Spinner } from '@/components/ui/Spinner';
 
 const Attendance: React.FC = () => {
   const { saveAttendance, getAttendance } = useAttendance();

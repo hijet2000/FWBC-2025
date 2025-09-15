@@ -1,13 +1,12 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 import App from './App';
-import { AuthProvider } from './src/auth/AuthProvider';
-import { AttendanceProvider } from './src/context/AttendanceContext';
-import { AcademicsProvider } from './src/context/AcademicsContext';
-import { CoursesProvider } from './src/context/CoursesContext';
-import './src/index.css';
+import { AuthProvider } from '@/auth/AuthProvider';
+import { AttendanceProvider } from '@/context/AttendanceContext';
+import { AcademicsProvider } from '@/context/AcademicsContext';
+import { CoursesProvider } from '@/context/CoursesContext';
+import '@/index.css';
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {

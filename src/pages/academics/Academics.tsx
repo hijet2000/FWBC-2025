@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { useAcademics } from '../../context/AcademicsContext';
-import * as classesService from '../../services/classesService';
-import { Class } from '../../data/mockData';
-import AssignSubjectModal from './AssignSubjectModal';
-import { Spinner } from '../../components/ui/Spinner';
+import { useAcademics } from '@/context/AcademicsContext';
+import * as classesService from '@/services/classesService';
+import { Class } from '@/data/mockData';
+import AssignSubjectModal from '@/pages/academics/AssignSubjectModal';
+import { Spinner } from '@/components/ui/Spinner';
 
 const Academics: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);

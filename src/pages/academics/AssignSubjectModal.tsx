@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { useAcademics } from '../../context/AcademicsContext';
-import { Class } from '../../data/mockData';
+import { useAcademics } from '@/context/AcademicsContext';
+import { Class } from '@/data/mockData';
 
 interface AssignSubjectModalProps {
   isOpen: boolean;

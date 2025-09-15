@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
-import { useAuth } from './AuthProvider';
+import { useAuth } from '@/auth/AuthProvider';
 
 interface RequireScopeProps {
   children: React.ReactNode;

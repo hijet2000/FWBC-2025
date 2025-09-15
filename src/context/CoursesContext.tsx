@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, ReactNode, useEffect } from 'react';
-import { Course, CourseStatus } from '../data/mockData';
-import * as coursesService from '../services/coursesService';
+import { Course } from '@/data/mockData';
+import * as coursesService from '@/services/coursesService';
 
 interface CoursesContextType {
   courses: Course[];

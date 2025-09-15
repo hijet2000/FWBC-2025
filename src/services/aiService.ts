@@ -1,4 +1,4 @@
-import { DisciplinaryIncident } from "../data/mockData";
+import { DisciplinaryIncident } from "@/data/mockData";
 
 /**
  * Generates a behavior summary based on a student's disciplinary incidents.

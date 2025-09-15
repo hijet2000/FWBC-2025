@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { mockDisciplinaryIncidents, Student, Class } from '../../data/mockData';
-import { generateBehaviorSummary } from '../../services/aiService';
-import * as studentsService from '../../services/studentsService';
-import * as classesService from '../../services/classesService';
-import BehaviorSummaryModal from './BehaviorSummaryModal';
-import { Spinner } from '../../components/ui/Spinner';
+import { mockDisciplinaryIncidents, Student, Class } from '@/data/mockData';
+import { generateBehaviorSummary } from '@/services/aiService';
+import * as studentsService from '@/services/studentsService';
+import * as classesService from '@/services/classesService';
+import BehaviorSummaryModal from '@/pages/students/BehaviorSummaryModal';
+import { Spinner } from '@/components/ui/Spinner';
 
 const StudentProfile: React.FC = () => {
   const { siteId, studentId } = useParams<{ siteId: string; studentId: string }>();

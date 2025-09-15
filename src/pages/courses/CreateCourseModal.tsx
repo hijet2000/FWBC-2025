@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-// Fix: Import CourseStatus from the correct source file.
-import { CourseStatus } from '../../data/mockData';
+import { CourseStatus } from '@/data/mockData';
 
 interface CreateCourseModalProps {
   isOpen: boolean;

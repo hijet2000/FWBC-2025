@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from '../../auth/AuthProvider';
+import { useAuth } from '@/auth/AuthProvider';
 
 const Header: React.FC = () => {
   const { user, signOut } = useAuth();

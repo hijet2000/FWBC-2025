@@ -1,4 +1,4 @@
-import { mockClasses, Class } from '../data/mockData';
+import { mockClasses, Class } from '@/data/mockData';
 
 const SIMULATED_DELAY = 300;
 

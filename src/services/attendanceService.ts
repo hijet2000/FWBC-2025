@@ -1,4 +1,4 @@
-import { AttendanceRecord, AttendanceData } from '../context/AttendanceContext';
+import { AttendanceRecord, AttendanceData } from '@/context/AttendanceContext';
 
 const SIMULATED_DELAY = 200;
 

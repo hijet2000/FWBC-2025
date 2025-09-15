@@ -17,7 +17,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 const defaultUser: User = {
   id: 'u1',
   name: 'Teacher Jane',
-  scopes: ['school:admin', 'lms:admin'],
+  scopes: ['school:admin'],
 };
 
 export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) => {

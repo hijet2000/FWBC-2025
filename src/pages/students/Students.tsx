@@ -1,10 +1,10 @@
 import React, { useState, useMemo, useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { Student, Class } from '../../data/mockData';
-import * as studentsService from '../../services/studentsService';
-import * as classesService from '../../services/classesService';
-import { Spinner } from '../../components/ui/Spinner';
-import { EmptyState } from '../../components/ui/EmptyState';
+import { Student, Class } from '@/data/mockData';
+import * as studentsService from '@/services/studentsService';
+import * as classesService from '@/services/classesService';
+import { Spinner } from '@/components/ui/Spinner';
+import { EmptyState } from '@/components/ui/EmptyState';
 
 const Students: React.FC = () => {
   const { siteId } = useParams<{ siteId: string }>();

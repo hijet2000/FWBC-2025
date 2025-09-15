@@ -1,4 +1,4 @@
-import { mockCourses, Course, CourseStatus } from '../data/mockData';
+import { mockCourses, Course } from '@/data/mockData';
 
 // In-memory store initialized with mock data
 let courses: Course[] = [...mockCourses];

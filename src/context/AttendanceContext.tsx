@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, ReactNode } from 'react';
-import * as attendanceService from '../services/attendanceService';
+import * as attendanceService from '@/services/attendanceService';
 
 export type AttendanceStatus = 'present' | 'absent' | 'late' | 'excused';
 
