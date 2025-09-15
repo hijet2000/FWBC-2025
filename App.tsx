@@ -1,14 +1,14 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import MainLayout from '@/components/layout/MainLayout';
-import { useAuth } from '@/auth/AuthProvider';
-import SisDashboard from '@/pages/SisDashboard';
-import Students from '@/pages/students/Students';
-import StudentProfile from '@/pages/students/StudentProfile';
-import Attendance from '@/pages/attendance/Attendance';
-import Academics from '@/pages/academics/Academics';
-import Courses from '@/pages/courses/Courses';
-import RequireScope from '@/auth/RequireScope';
+import MainLayout from './src/components/layout/MainLayout';
+import { useAuth } from './src/auth/AuthProvider';
+import SisDashboard from './src/pages/SisDashboard';
+import Students from './src/pages/students/Students';
+import StudentProfile from './src/pages/students/StudentProfile';
+import Attendance from './src/pages/attendance/Attendance';
+import Academics from './src/pages/academics/Academics';
+import Courses from './src/pages/courses/Courses';
+import RequireScope from './src/auth/RequireScope';
 
 const App: React.FC = () => {
   const { user, signIn } = useAuth();
